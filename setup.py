@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='Ambitious',
     version='1.0.0',
-    description='some extra for Keras',
+    description='Ambitious adds advanced and experimental features to Keras.',
     url='https://github.com/henry0312/ambitious',
     author='Tsukasa OMOTO',
     author_email='henry0312@gmail.com',
