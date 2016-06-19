@@ -1,6 +1,18 @@
 # Ambitious
 
-**Ambitious** gives some extras to [Keras](https://github.com/fchollet/keras).
+**Ambitious** adds advanced and experimental features to [Keras](https://github.com/fchollet/keras).
+
+## Requirements
+
+* Python 3.5 or later  
+  (Note that I don't support Python 2.7)
+* Keras 1.0 or later
+
+## Install
+
+```sh
+python setup.py install
+```
 
 ## Licence
 
