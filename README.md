@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-python setup.py install
+make install
 ```
 
 ## Licence
