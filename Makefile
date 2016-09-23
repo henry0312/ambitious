@@ -1,4 +1,4 @@
-.PHONY: build dist install uninstall clean
+.PHONY: build dist install uninstall update clean
 
 SHELL := /bin/bash
 PACKAGE := Ambitious
@@ -15,6 +15,8 @@ install: dist
 
 uninstall:
 	pip uninstall $(PACKAGE)
+
+update: uninstall install
 
 clean:
 	rm -fr build dist $(PACKAGE).egg-info
